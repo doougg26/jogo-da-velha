@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    font-family: monospace;
+}
+.quadrado{
+
+    text-align: center;
+    background-color: #eee;
+    color: #eee;
+    border: 1px solid rgb(77, 4, 138);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.player, .winner{
+    font-size: 30px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;
+}
+footer{
+   
+    margin-top: 30px;
+    padding: 0px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+@media screen and (max-width:460px) {
+
+    .player, .winner{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .quadrado{
+
+        width: 40px;
+        padding: 10px;
+        font-size: 40px;
+        margin: 3px;
+        border-radius: 5px;
+    }
+
+
+
+}

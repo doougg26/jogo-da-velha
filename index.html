@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <div>
+        <div id="1" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="square(this.id)">-</div>
+    </div>
+    <div>
+        <div id="4" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="square(this.id)">-</div>
+    </div>
+    <div>
+        <div id="7" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="square(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="square(this.id)">-</div>
+        
+    </div>
+    <di class="player">
+        <label for="">Jogador:</label>
+        <label id="selected"></label>
+    </di>
+    <div class="winner">
+       
+        <label for="">Vencedor:</label> 
+        <label id="winner"></label>
+    </div>
+    <div>
+        <button onclick="reset()">
+            Reiniciar
+        </button>
+    </div>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/doougg26" rel="external">doougg26</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
